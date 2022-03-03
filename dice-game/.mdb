@@ -1,0 +1,8 @@
+{
+  "projectName": "dice-game",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "798e6363"
+}
