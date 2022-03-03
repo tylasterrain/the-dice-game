@@ -2,6 +2,7 @@
   width: 80%;
   margin: auto;
   text-align: center;
+  overflow: hidden;
 }
 
 .dice {
@@ -17,14 +18,15 @@
 }
 
 .winner1-flag {
-  position: absolute;
-  top: 50%;
+  position: relative;
+  bottom: 12rem;
+  right: 20rem;
 }
 
 .winner2-flag {
-  position: absolute;
-  top: 50%;
-  left: 82%;
+  position: relative;
+  bottom: 13rem;
+  left: 20rem;
 }
 
 body {
@@ -32,7 +34,7 @@ body {
 }
 
 h1 {
-  margin: 80px auto 50px auto;
+  margin: 80px auto 30px auto;
   font-family: 'Press Start 2P', cursive;
   font-size: 2.5rem;
   color: white
@@ -52,13 +54,101 @@ img {
 }
 
 footer {
-  margin-top: 10%;
   color: #be0f0f;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-
+position: fixed;
+top: 95%;
+left: 40%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+  
+  .container {
+    margin: auto;
+    text-align: center;
+  }
+  
+  img {
+    width: 60%;
+  }
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+
+  .bi {
+    color: white;
+    font-size: 3rem;
+  }
+
+  .winner1-flag {
+    position: relative;
+    bottom: 9rem;
+    right: 17rem;
+  }
+  
+  .winner2-flag {
+    position: relative;
+    bottom: 10rem;
+    left: 17rem;
+  }
+
+
+footer {
+  position: fixed;
+top: 95%;
+left: 35%;
+}
+  
+  
+}
+
+@media only screen and (max-width: 740px) {
+
+  .container {
+    margin: auto;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 40px auto 15px auto;
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+
+  .bi {
+    color: white;
+    font-size: 3rem;
+  }
+
+  .winner1-flag {
+    position: relative;
+    bottom: 23rem;
+    right: 7rem;
+  }
+  
+  .winner2-flag {
+    position: relative;
+bottom: 8rem;
+    left: 7rem;
+  }
+
+  footer {
+    position: fixed;
+  top: 95%;
+  left: 25%;
+  }
 
 }

@@ -22,8 +22,9 @@ var diceImage2 = "./images/dice" + number2 + ".png";
 
     } else {
         $("h1").html("Draw!");
-        $(".winner1-flag").show();
         $(".winner2-flag").show();
+        $(".winner1-flag").show();
+     
     }
 };
 
